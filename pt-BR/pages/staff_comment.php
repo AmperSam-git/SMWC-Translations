@@ -5,7 +5,7 @@ return [
 	'editor' => 'Editor',
 	'body' => [
 		'main' => 'Problema com a atitude de um membro da staff? Elogio para um membro da staff que trabalha duro quem você sente que é pouco valorizado? Ideias em geral para a staff? Sinta-se livre para enviar feedback. Ele será usado apenas para ajudar a melhorar o site.',
-		'attitude' => 'Se houver um problema com a atitude de um membro da staff, por favor forneça exemplos pois pode ser algo que não estamos cientes sobre.',
+		'report' => 'Se houver um problema com a atitude de um membro da staff, por favor forneça exemplos pois pode ser algo que não estamos cientes sobre.',
 		'response' => 'Responderemos a sua mensagem publicamente no {link}Tópico de Feedback para a Staff{/link} desde que ela se encaixe nos critérios listados na primeira postagem. Se você optar por mostrar sua identidade, talvez entremos em contato com você a respeito de seu feedback.',
 	],
 	'form' => [

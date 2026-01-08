@@ -3,8 +3,8 @@
 return [
 	'title' => '{Tweak} - {game} 微調整',
 	'breadcrumbs' => [
-		'moderated' => '{link}{game}の微調整{/link} → {tweak}', // U+2192 (RIGHTWARDS ARROW)
-		'waiting' => '{link}モデレート待ちの{game}の微調整{/link} → {tweak}', // U+2192 (RIGHTWARDS ARROW)
+		'moderated' => '{link}{game}の微調整{/link}{arrow}{tweak}',
+		'waiting' => '{link}モデレート待ちの{game}の微調整{/link}{arrow}{tweak}',
 	],
 	'action' => [
 		'submit_update' => 'アップデートを送信',

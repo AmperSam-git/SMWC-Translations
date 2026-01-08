@@ -4,8 +4,8 @@ return [
 	'title' => '{file} - {Section}',
 	'age_gate' => 'This file contains content unsuitable for minors.',
 	'breadcrumbs' => [
-		'moderated' => '{link}{section}{/link} → {file}', // U+2192 (RIGHTWARDS ARROW)
-		'waiting' => '{link}Waiting {section}{/link} → {file}', // U+2192 (RIGHTWARDS ARROW)
+		'moderated' => '{link}{section}{/link}{arrow}{file}',
+		'waiting' => '{link}Waiting {section}{/link}{arrow}{file}',
 	],
 	'action' => [
 		'submit_update' => 'Submit Update',
@@ -18,33 +18,23 @@ return [
 		'watch' => 'Watch',
 		'unwatch' => 'Unwatch',
 		'random' => 'Show random',
-		'link' => 'Link',
 	],
 	'obsolete' => 'This file is obsolete. The latest version is {latest_link}{latest}{/link}. For other versions, check the {history_link}version history{/link}.',
 	'content' => [
-		'warning' => 'This file contains {warnings}. Discretion is advised.',
-		'suggestive_dialogue' => 'suggestive dialogue',
-		'crude_content' => 'crude content',
-		'crude_language' => 'crude language',
-		'sexual_content' => 'sexual content',
-		'violence' => 'violence',
-		'epilepsy' => 'content (such as flashing imagery) that may be harmful to people with photosensitive epilepsy or similar conditions',
+		'warning' => 'Player Discretion is Advised. Submission Contains the Following:',
+		'photosensitivity' => 'Possible Photosensitivity Triggers',
+		'crude_content' => 'Crude Content or Language',
+		'suggestive_content' => 'Suggestive Content or Language',
+		'sexual_content' => 'Sexual Content',
+		'violence' => 'Violent Content',
 	],
+	'hof_message' => 'This hack is featured in our {link}Hall of Fame{/link}.',
 	'details' => 'Submission Details',
+	'name' => 'Submission',
 	'field' => [
 		'name' => 'Name:',
 		'authors' => 'Author:|Authors:',
-		'added' => 'Added:',
-		'history' => [
-			'name' => 'Version History:',
-			'view' => 'View',
-		],
-		'submitted' => [
-			'name' => 'Submitted:',
-			'content' => '{date} by {user}',
-		],
 		'obsoletes' => 'Obsoletes:',
-		'submission_notes' => 'Submission Notes:',
 		'preview' => 'Preview:',
 		'tags' => [
 			'name' => 'Tags:',
@@ -52,14 +42,53 @@ return [
 		],
 		'comments' => [
 			'name' => 'Comments:',
-			'jump' => '(jump to comments)',
+			'jump' => 'View comments',
 		],
 		'rating' => [
 			'name' => 'Rating:',
 			'count' => '(1 rating)|({count} ratings)',
 			'none' => 'No rating',
 		],
-		'claimed' => 'Claimed for moderation by {user} on {date}',
+		'difficulty' => [
+			'name' => 'Difficulty:',
+			'level' => [
+				'diff_1' => 'Newcomer',
+				'diff_2' => 'Casual',
+				'diff_3' => 'Intermediate',
+				'diff_4' => 'Advanced',
+				'diff_5' => 'Expert',
+				'diff_6' => 'Master',
+				'diff_7' => 'Grandmaster',
+			],
+			'tooltip' => 'Hacks may be in one of seven Difficulty categories: Newcomer, Casual, Intermediate, Advanced, Expert, Master, or Grandmaster.',
+		],
+		'link' => [
+			'name' => 'Short URL:',
+			'content' => 'Link',
+			'copy' => 'Copy',
+		],
+		'moderation' => 'Moderation Information',
+		'submitted' => [
+			'name' => 'Submitted by:',
+			'content' => '{user} on {date}',
+		],
+		'submission_notes' => 'Notes:',
+		'accepted' => [
+			'name' => 'Accepted by:',
+			'content' => '{user} on {date}',
+		],
+		'history' => [
+			'name' => 'Version History:',
+			'view' => 'View',
+		],
+		'claimed' => [
+			'name' => 'Claimed by:',
+			'content' => '{user} on {date}',
+		],
+		'waiting' => [
+			'name' => 'Waiting:',
+			'content' => '{date}',
+		],
 	],
 	'download' => [
 		'button' => 'Download',
@@ -69,6 +98,7 @@ return [
 	'rate' => [
 		'name' => 'Rate:',
 		'star' => 'Rate {count}',
+		'revoke' => 'Remove Rating',
 	],
 	'images' => [
 		'title' => 'Screenshots',
@@ -79,8 +109,8 @@ return [
 		'form' => [
 			'title' => 'Post a Comment',
 			'textarea' => 'Comment',
-			'replying' => 'Replying to {author}: {text}',
-			'unreply' => 'cancel reply',
+			'replying' => 'Replying to {author} {text}',
+			'unreply' => 'Cancel',
 			'submit' => 'Post',
 			'preview' => 'Preview',
 		],

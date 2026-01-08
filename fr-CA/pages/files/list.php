@@ -5,7 +5,7 @@ return [
 		'own' => 'Mes fichiers',
 		'other' => 'Fichiers de {username}',
 	],
-	'breadcrumbs' => '{link}Profil de {username}{/link} → Fichiers', // U+2192 (RIGHTWARDS ARROW)
+	'breadcrumbs' => '{link}Profil de {username}{/link}{arrow}Fichiers',
 	'stats' => [
 		'files' => '{bold}{count}{/bold} fichier a été téléversé.|{bold}{count}{/bold} fichiers ont été téléversés.',
 		'usage' => 'Utilisation: {bold}{used}{/bold} de {total} ({bold}{percent}%{/bold}).',

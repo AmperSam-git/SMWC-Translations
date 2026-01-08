@@ -2,7 +2,7 @@
 
 return [
 	'title' => '{folder} - 編集 - 私のファイル',
-	'breadcrumbs' => '{profile}{username}のプロフィール{/profile} → {files}ファイル{/files} → {folder} → 編集', // U+2192 (RIGHTWARDS ARROW)
+	'breadcrumbs' => '{profile}{username}のプロフィール{/profile}{arrow}{files}ファイル{/files}{arrow}{folder}{arrow}編集',
 	'form' => [
 		'title' => '編集',
 		'name' => [

@@ -47,8 +47,8 @@ return [
 	],
 	'read' => [
 		'breadcrumbs' => [
-			'inbox' => '{link}Boîte de réception des messages privés{/link} → {subject}', // U+2192 (RIGHTWARDS ARROW)
-			'sentbox' => '{link}Boîte d\'envoi des messages privés{/link} → {subject}', // U+2192 (RIGHTWARDS ARROW)
+			'inbox' => '{link}Boîte de réception des messages privés{/link}{arrow}{subject}',
+			'sentbox' => '{link}Boîte d\'envoi des messages privés{/link}{arrow}{subject}',
 		],
 		'reply' => 'Répondre',
 	],

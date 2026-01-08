@@ -24,7 +24,7 @@ return [
 		'show_results' => '結果を表示',
 		'hide_results' => '結果を非表示',
 		'delete' => '削除',
-		'votes' => '{percentage}% ({link}1件の投票{/link})|{percentage}% ({link}{count}件の投票{/link})',
+		'votes' => '{percentage}% ({link}{count}件の投票{/link})',
 		'limit' => '投票は 1 つだけ許可されます。|最大{count}票まで許可されます。',
 		'once' => '後で投票を変更することはできません。',
 		'public' => '後で投票を変更することはできません。',

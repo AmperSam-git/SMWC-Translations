@@ -4,8 +4,8 @@ return [
 	'title' => '{file} - {Section}',
 	'age_gate' => 'Este arquivo pode conter conteúdo não adequado para menores de idade.',
 	'breadcrumbs' => [
-		'moderated' => '{link}{section}{/link} → {file}', // U+2192 (RIGHTWARDS ARROW)
-		'waiting' => '{link}Em espera {section}{/link} → {file}', // U+2192 (RIGHTWARDS ARROW)
+		'moderated' => '{link}{section}{/link}{arrow}{file}',
+		'waiting' => '{link}Em espera {section}{/link}{arrow}{file}',
 	],
 	'action' => [
 		'submit_update' => 'Submeter Atualização',
@@ -18,16 +18,15 @@ return [
 		'watch' => 'Observar',
 		'unwatch' => 'Desobservar',
 		'random' => 'Mostrar aleatório',
-		'link' => 'Link',
 	],
 	'obsolete' => 'Este arquivo é obsoleto. Sua última versão é {latest_link}{latest}{/link}. Para outras versões, confira o {history_link}histórico de versões{/link}.',
 	'content' => [
-		'warning' => 'Este arquivo contém {warnings}. Discrição é aconselhada.',
-		'suggestive_dialogue' => 'diálogo sugestivo',
-		'crude_language' => 'linguagem profana',
-		'sexual_content' => 'conteúdo sexual',
-		'violence' => 'violência',
-		'epilepsy' => 'conteúdo (como imagens piscantes) que pode ser prejudicial para pessoas com epilepsia fotossensível ou condições semelhantes',
+		'warning' => 'Recomenda-se discrição do jogador. O arquivo contém o seguinte:',
+		'suggestive_content' => 'Conteúdo ou Linguagem Sugestivo(a)',
+		'crude_content' => 'Conteúdo ou Linguagem Grosseiro (a)',
+		'sexual_content' => 'Conteúdo Sexual',
+		'violence' => 'Violência',
+		'photosensitivity' => 'Possíveis Gatilhos de Fotossensibilidade',
 	],
 	'details' => 'Detalhes da Submissão',
 	'field' => [
@@ -51,12 +50,28 @@ return [
 		],
 		'comments' => [
 			'name' => 'Comentários:',
-			'jump' => '(pular para comentários)',
+			'jump' => 'Pular para comentários',
 		],
 		'rating' => [
 			'name' => 'Avaliação:',
 			'count' => '(1 avaliação)|({count} avaliações)',
 			'none' => 'Sem avaliações',
+		],
+		'difficulty' => [
+			'name' => 'Dificuldade',
+			'level' => [
+				'diff_1' => 'Novato',
+				'diff_2' => 'Casual',
+				'diff_3' => 'Intermédio',
+				'diff_4' => 'Avançado',
+				'diff_5' => 'Especialista',
+				'diff_6' => 'Mestre',
+				'diff_7' => 'Grande Mestre',
+			],
+		],
+		'link' => [
+			'name' => 'Link:',
+			'content' => 'Link',
 		],
 		'claimed' => 'Reivindicado para moderação por {user} em {date}',
 	],

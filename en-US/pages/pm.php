@@ -25,7 +25,7 @@ return [
 		'search' => [
 			'title' => 'Search',
 			'too_many' => 'Too many users found; some results may have been omitted.',
-			'field' => 'Subject or username:',
+			'field' => 'Subject or Username',
 			'submit' => 'Search',
 		],
 		'inbox' => 'Inbox',
@@ -47,8 +47,8 @@ return [
 	],
 	'read' => [
 		'breadcrumbs' => [
-			'inbox' => '{link}PM inbox{/link} → {subject}', // U+2192 (RIGHTWARDS ARROW)
-			'sentbox' => '{link}PM sentbox{/link} → {subject}', // U+2192 (RIGHTWARDS ARROW)
+			'inbox' => '{link}PM inbox{/link}{arrow}{subject}',
+			'sentbox' => '{link}PM sentbox{/link}{arrow}{subject}',
 		],
 		'reply' => 'Reply',
 	],

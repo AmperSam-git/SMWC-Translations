@@ -4,8 +4,8 @@ return [
 	'title' => '{file} - {Section}',
 	'age_gate' => 'このファイルには未成年者に不適切なコンテンツが含まれています。',
 	'breadcrumbs' => [
-		'moderated' => '{link}{section}{/link} → {file}', // U+2192 (RIGHTWARDS ARROW)
-		'waiting' => '{link}モデレート待ちの{section}{/link} → {file}', // U+2192 (RIGHTWARDS ARROW)
+		'moderated' => '{link}{section}{/link}{arrow}{file}',
+		'waiting' => '{link}モデレート待ちの{section}{/link}{arrow}{file}',
 	],
 	'action' => [
 		'submit_update' => 'アップデートを送信',
@@ -22,13 +22,13 @@ return [
 	],
 	'obsolete' => 'このファイルは廃止されました。最新バージョンは {latest_link}{latest}{/link}です。他のバージョンについては、{history_link}バージョン履歴{/link}をご確認ください。',
 	'content' => [
-		'warning' => 'このファイルには {warnings} が含まれています。慎重に判断することをお勧めします。',
-		'suggestive_dialogue' => '示唆的なダイアログ',
-		'crude_content' => '粗いコンテンツ',
-		'crude_language' => '下品な言語',
-		'sexual_content' => '性的コンテンツ',
-		'violence' => '暴力',
-		'epilepsy' => '光過敏性てんかんまたは同様の症状を持つ人々に有害な可能性のあるコンテンツ (点滅する画像など)',
+		// TODO: Get translations
+		// 'warning' => 'Player Discretion is Advised. Submission Contains the Following:',
+		// 'photosensitivity' => 'Possible Photosensitivity Triggers',
+		// 'crude_content' => 'Crude Content or Language',
+		// 'suggestive_content' => 'Suggestive Content or Language',
+		// 'sexual_content' => 'Sexual Content',
+		// 'violence' => 'Violent Content',
 	],
 	'details' => '提出の詳細',
 	'field' => [
@@ -52,12 +52,30 @@ return [
 		],
 		'comments' => [
 			'name' => 'コメント:',
-			'jump' => '(コメントへジャンプ)',
+			'jump' => 'コメントへジャンプ',
 		],
 		'rating' => [
 			'name' => '評価:',
 			'count' => '(1件の評価)|({count}件の評価)',
 			'none' => '評価なし',
+		],
+		// TODO: Needs Translation
+		// 'difficulty' => [
+		// 	'name' => 'Difficulty:',
+		// 	'level' => [
+		// 		'diff_1' => 'Newcomer',
+		// 		'diff_2' => 'Casual',
+		// 		'diff_3' => 'Intermediate',
+		// 		'diff_4' => 'Advanced',
+		// 		'diff_5' => 'Expert',
+		// 		'diff_6' => 'Master',
+		// 		'diff_7' => 'Grandmaster',
+		// 	],
+		// 	'tooltip' => "",
+		// ],
+		'link' => [
+			'name' => 'リンク:',
+			'content' => 'リンク',
 		],
 		'claimed' => '{date} に {user} によるモデレーションを要求されました',
 	],

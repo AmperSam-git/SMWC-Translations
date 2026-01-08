@@ -3,8 +3,8 @@
 return [
 	'title' => '{Tweak} - Ajustements pour {game}',
 	'breadcrumbs' => [
-		'moderated' => '{link}Ajustements pour {game}{/link} → {tweak}', // U+2192 (RIGHTWARDS ARROW)
-		'waiting' => '{link}Ajustements pour {game} en attente{/link} → {tweak}', // U+2192 (RIGHTWARDS ARROW)
+		'moderated' => '{link}Ajustements pour {game}{/link}{arrow}{tweak}',
+		'waiting' => '{link}Ajustements pour {game} en attente{/link}{arrow}{tweak}',
 	],
 	'action' => [
 		'submit_update' => 'Soumettre une mise à jour',

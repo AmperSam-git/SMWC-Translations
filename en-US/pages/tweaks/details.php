@@ -3,8 +3,8 @@
 return [
 	'title' => '{Tweak} - {game} Tweaks',
 	'breadcrumbs' => [
-		'moderated' => '{link}{game} Tweaks{/link} → {tweak}', // U+2192 (RIGHTWARDS ARROW)
-		'waiting' => '{link}Waiting {game} Tweaks{/link} → {tweak}', // U+2192 (RIGHTWARDS ARROW)
+		'moderated' => '{link}{game} Tweaks{/link}{arrow}{tweak}',
+		'waiting' => '{link}Waiting {game} Tweaks{/link}{arrow}{tweak}',
 	],
 	'action' => [
 		'submit_update' => 'Submit Update',

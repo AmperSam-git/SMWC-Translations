@@ -34,29 +34,62 @@ return [
 			],
 		],
 		'smwhacks' => [
-			'demo' => 'Demonstração',
-			'featured' => [
-				'name' => 'Em Destaque',
-				'description' => 'Controla o status de destaque da hack.',
+			'demo' => [
+				'name' => 'Demonstração',
+				'description' => 'A hack é uma demonstração?',
+			],
+			'hof' => [
+				'name' => 'Hall da Fama',
+				'description' => 'A hack faz parte do Hall da Fama?',
 			],
 			'length' => [
 				'name' => 'Duração',
 				'description' => 'Número de saídas de fase (level exits) na hack.',
 			],
 			'difficulty' => [
-				'name' => 'Tipo',
+				'name' => 'Dificuldade',
+				'description' => 'Escolha a dificuldade relativa da hack.',
 				'options' => [
-					'easy' => 'Padrão: Fácil',
-					'normal' => 'Padrão: Normal',
-					'hard' => 'Padrão: Difícil',
-					'very_hard' => 'Padrão: Muito Difícil',
-					'kaizo_light' => 'Kaizo: Leve',
-					'kaizo_hard' => 'Kaizo: Difícil',
-					'pit' => 'Kaizo: Pit',
-					'troll' => 'Misc.: Troll',
+					'diff_1' => 'Novato',
+					'diff_2' => 'Casual',
+					'diff_3' => 'Intermédio',
+					'diff_4' => 'Avançado',
+					'diff_5' => 'Especialista',
+					'diff_6' => 'Mestre',
+					'diff_7' => 'Grande Mestre',
+				],
+			],
+			'type' => [
+				'name' => 'Tipo',
+				'description' => 'Escolha o tipo da hack. Hacks podem conter múltiplos tipos.',
+				'options' => [
+					'standard' => 'Padrão',
+					'kaizo' => 'Kaizo',
+					'puzzle' => 'Quebra-Cabeça',
+					'tool_assisted' => 'Assistido por Ferramentas',
+					'pit' => 'Pit',
 				],
 			],
 			'description' => 'Descrição',
+			'warnings' => [
+				'name' => 'Avisos',
+				'description' => 'A hack apresenta algum conteúdo adulto e/ou material sensível?',
+				'options' => [
+					'suggestive_content' => 'Conteúdo ou Linguagem Sugestivo(a)',
+					'crude_content' => 'Conteúdo ou Linguagem Grosseiro (a)',
+					'sexual_content' => 'Conteúdo Sexual',
+					'violence' => 'Violência',
+					'photosensitivity' => 'Possíveis Gatilhos de Fotossensibilidade',
+				],
+			],
+			'collab' => [
+				'name' => 'Colaboração',
+				'description' => 'Trata-se de uma hack colaborativa?',
+			],
+			'sa1' => [
+				'name' => 'SA-1',
+				'description' => 'A hack usufrui do chip especial SA-1?',
+			],
 		],
 		'sm64hacks' => [
 			'difficulty' => [

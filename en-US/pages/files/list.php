@@ -5,10 +5,10 @@ return [
 		'own' => 'My Files',
 		'other' => '{username}\'s Files',
 	],
-	'breadcrumbs' => '{link}{username}\'s Profile{/link} → Files', // U+2192 (RIGHTWARDS ARROW)
+	'breadcrumbs' => '{link}{username}\'s Profile{/link}{arrow}Files',
 	'stats' => [
-		'files' => '{bold}{count}{/bold} file uploaded.|{bold}{count}{/bold} files uploaded.',
-		'usage' => 'Usage: {bold}{used}{/bold} of {total} ({bold}{percent}%{/bold}).',
+		'files' => '{bold}{count}{/bold} file uploaded |{bold}{count}{/bold} files uploaded.',
+		'usage' => '{bold}{used}{/bold} of {total} ({bold}{percent}%{/bold}) used.',
 	],
 	'action' => [
 		'selected' => 'With selected:',
@@ -21,6 +21,7 @@ return [
 		'confirm_move' => 'Move selected files?',
 		'edit' => 'Edit',
 		'delete' => 'Delete',
+		'swap_list_status' => 'List/Unlist',
 	],
 	'header' => [
 		'name' => 'Name',

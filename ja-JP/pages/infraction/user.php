@@ -5,7 +5,7 @@ return [
 		'own' => '私の違反',
 		'other' => '{username}の違反',
 	],
-	'breadcrumbs' => '{profile}{username}のプロフィール{/profile} → 違反',
+	'breadcrumbs' => '{profile}{username}のプロフィール{/profile}{arrow}違反',
 	'empty' => [
 		'own' => '違反はありません。',
 		'other' => '{username}には違反はありません。',

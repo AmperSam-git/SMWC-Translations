@@ -31,14 +31,14 @@ return [
 	],
 	'redirection' => 'Click {link}here{/link} or wait to get redirected…', // U+2026 (HORIZONTAL ELLIPSIS)
 	'user_status' => [
+		'founder' => 'Site Founder',
 		'owner' => 'Site Owner',
-		'founder' => 'Founder and Ex-Site Owner',
 		'manager' => 'Site Manager',
 		'admin' => 'Administrator',
 		'dev' => [
 			'junior' => 'Developer',
-            'senior' => 'Senior Developer',
-            'lead' => 'Lead Developer',
+			'senior' => 'Senior Developer',
+			'lead' => 'Lead Developer',
 			'sysadmin' => 'System Administrator',
 		],
 		'leader' => [
@@ -46,6 +46,7 @@ return [
 			'discord' => 'Discord Manager',
 			'pr' => 'PR Manager',
 			'smwhacks' => 'SMW Hack Manager',
+			'tools' => 'Tools Manager',
 			'smwgraphics' => 'SMW Graphics Manager',
 			'smwmusic' => 'SMW Music Manager',
 			'smwasm' => 'SMW ASM Manager',
@@ -67,10 +68,13 @@ return [
 			'documents' => 'Documents Moderator',
 		],
 		'pr' => 'Public Relations',
+		'events' => 'Site Events Team',
 		'helper' => [
 			'forum' => 'Forum Helper',
 			'pr' => 'PR Helper',
+			'events' => 'Site Events Helper',
 			'smwhacks' => 'SMW Hacks Helper',
+			'tools' => 'Tools Helper',
 			'smwgraphics' => 'SMW Graphics Helper',
 			'smwmusic' => 'SMW Music Helper',
 			'smwasm' => 'SMW ASM Helper',
@@ -80,10 +84,11 @@ return [
 		],
 		'system' => 'Human Resources',
 		'former' => [
+			'owner' => 'Former Site Owner',
 			'admin' => 'Former Administrator',
 			'dev' => 'Legendary Former Walrus',
-			'legend' => 'Legend',
-			'staff' => 'Legendary Ex-Staff Member',
+			'legend' => 'Legendary Former Staff Member',
+			'staff' => 'Former Staff Member',
 		],
 		'time_banned' => 'Banned Until {date}',
 		'banned' => 'Banned',
@@ -93,6 +98,7 @@ return [
 		'history' => 'Post history',
 		'link' => 'Link',
 		'quote' => 'Quote',
+		'view_source' => 'View Source',
 		'edit' => 'Edit',
 		'delete' => 'Delete',
 		'ip' => 'Search IP',
@@ -105,13 +111,5 @@ return [
 	'recent_infraction' => [
 		'title' => 'Recent Infraction',
 		'message' => 'You have recently been issued an infraction for offensive behavior. You will be redirected to the infraction.',
-	],
-	'permission_denied' => [
-		'title' => 'Permission Denied',
-		'message' => 'You do not have permission to do this.',
-	],
-	'server_error' => [
-		'title' => 'Error',
-		'message' => 'Internal error, try again later.',
 	],
 ];

@@ -4,9 +4,6 @@ return [
 	'title' => 'SMW Central - Your primary Super Mario World hacking resource',
 	'intro' => [
 		'title' => 'Welcome to SMW Central!',
-		'paragraph' => 'SMW Central is the largest ROM hacking community on the internet, and the gathering place for all the resources you need to create your own ROM hack. We offer a large selection of completed hacks as well, ready for you to play! Traditionally SMW Central focuses on hacking {em}Super Mario World{/em}, but over the years we\'ve collected a ton of resources and hacks involving other games, too.',
-		'register' => 'Our community is ever-growing — {link}sign up now{/link} and be part of it!',
-		'beginners_title' => 'Getting started: How to play and make hacks',
 		'beginners' => 'Need help playing the hacks we host? Not sure what “ROM hacking” is in the first place? Our {link}Beginners\' Guide{/link} will gladly show you around.', // U+201C (LEFT DOUBLE QUOTATION MARK) and U+201D (RIGHT DOUBLE QUOTATION MARK)
 	],
 	'files' => [
@@ -24,18 +21,9 @@ return [
 		'all' => 'All news',
 	],
 	'calendar' => [
-		'title' => 'Calendar',
-		'js' => 'Please enable JavaScript to view the calendar.',
-		'previous' => 'Previous',
-		'next' => 'Next',
-		'events_today' => 'Events today:',
-		'events_on' => 'Events on {date}:',
-		'all_events' => 'All events',
-		'separator' => ' - ',
+		'title' => 'Events',
+		'no_events' => 'There are no upcoming events.',
 		'period' => '{from} – {to}', // U+2013 (EN DASH)
-		'birthdays' => 'Birthday list',
-		'empty_today' => 'There are no events today.',
-		'empty_on' => 'There are no events on this day.',
 	],
 	'submission' => [
 		'tools' => 'Tool',

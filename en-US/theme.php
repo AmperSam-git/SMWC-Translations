@@ -2,14 +2,14 @@
 
 return [
 	'global' => [
-		'value' => '[0] {Theme}|[*,*] {Theme} ({count})',
+		'value' => '{Theme}',
 		'options' => [
 			'menu' => [
 				'title' => 'Menu',
 				'description' => 'Controls which side of the screen the sidebar menu will be on.',
 				'values' => [
-					'right' => '[0] Right|[*,*] Right ({count})',
-					'left' => '[0] Left|[*,*] Left ({count})',
+					'right' => 'Right',
+					'left' => 'Left',
 				],
 			],
 		],
@@ -19,7 +19,7 @@ return [
 		'options' => [
 			'scheme' => [
 				'title' => 'Scheme',
-				'value' => '[0] {Scheme}|[*,*] {Scheme} ({count})',
+				'value' => '{Scheme}',
 			],
 		],
 	],
@@ -36,8 +36,21 @@ return [
 					'ambiance' => 'Ambiance',
 					'doomsday' => 'Doomsday',
 					'rain' => 'Rain',
-					'c3w2023' => "\u{200C}[C3] Mario Party",
-					'dreamhouse' => "\u{200C}[C3] Dream House",
+					'frappe' => 'Frappe',
+					'mocha' => 'Mocha',
+					'hotdogstand' => 'Hotdog Stand',
+					'c3w2023' => '[C3] Mario Party',
+					'dreamhouse' => '[C3] Dream House',
+					'c3s2024' => '[C3] SMWCities',
+				],
+			],
+			'color' => [
+				'title' => 'Color Mode',
+				'description' => 'For site schemes that support it, set the color mode preference.',
+				'values' => [
+					'system' => 'Use device default',
+					'light' => 'Light mode',
+					'dark' => 'Dark mode',
 				],
 			],
 		],

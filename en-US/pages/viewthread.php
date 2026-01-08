@@ -10,14 +10,14 @@ return [
 	'actions' => [
 		'reply' => 'New Reply',
 		'closed' => 'Thread Closed',
-		'watch' => 'Watch Thread',
-		'unwatch' => 'Unwatch Thread',
-		'move' => 'Move Thread',
-		'sticky' => 'Sticky Thread',
-		'desticky' => 'Desticky Thread',
-		'close' => 'Close Thread',
-		'open' => 'Open Thread',
-		'trash' => 'Trash Thread',
+		'watch' => 'Watch',
+		'unwatch' => 'Unwatch',
+		'move' => 'Move',
+		'sticky' => 'Sticky',
+		'desticky' => 'Desticky',
+		'close' => 'Close',
+		'open' => 'Open',
+		'trash' => 'Trash',
 		'link' => 'Link',
 	],
 	'poll' => [
@@ -49,5 +49,15 @@ return [
 	'post_not_found' => [
 		'title' => 'Error',
 		'message' => 'The requested post either does not exist or you don\'t have permission to view it.',
+	],
+	'c3_berries' => [
+		'some_left' => 'You have {bold}{berries_left}{/bold} berry left to give in this thread.|You have {bold}{berries_left}{/bold} berries left to give in this thread.',
+		'none_left' => 'You have given away {bold}all{/bold} of your berries in this thread. Great job!',
+		'how_many_awarded' => 'You have given away {bold}{berries_awarded}{/bold} berry.|You have given away {bold}{berries_awarded}{/bold} berries.',
+		'list' => 'You have given a berry to:|You have given berries to:',
+		'award' => 'Give a Berry!',
+		'revoke' => 'Berry Given!',
+		'revoke_tooltip' => 'Click to take back',
+		'edit_max_berries' => 'Edit Max Berries',
 	],
 ];

@@ -59,7 +59,7 @@ return [
 				'title' => 'Title',
 				'avatar' => 'Avatar',
 				'location' => 'Location',
-				'email' => 'Email',
+				'email' => 'Email',	// No longer valid
 				'discord_tag' => 'Discord tag',
 				'contact' => 'Other contact details',
 				'bio' => 'Bio',

@@ -2,7 +2,7 @@
 
 return [
 	'title' => '{folder} - Edit - My Files',
-	'breadcrumbs' => '{profile}{username}\'s Profile{/profile} → {files}Files{/files} → {folder} → Edit', // U+2192 (RIGHTWARDS ARROW)
+	'breadcrumbs' => '{profile}{username}\'s Profile{/profile}{arrow}{files}Files{/files}{arrow}{folder}{arrow}Edit',
 	'form' => [
 		'title' => 'Edit',
 		'name' => [

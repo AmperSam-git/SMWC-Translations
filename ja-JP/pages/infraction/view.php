@@ -5,7 +5,7 @@ return [
 		'notice' => '通知 #{id}',
 		'infraction' => '違反 #{id}',
 	],
-	'breadcrumbs' => '{profile}{username}のプロフィール{/profile} → {list}違反{/list} → #{id}',
+	'breadcrumbs' => '{profile}{username}のプロフィール{/profile}{arrow}{list}違反{/list}{arrow}#{id}',
 	'action' => [
 		'edit' => '編集',
 		'delete' => '削除',

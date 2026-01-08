@@ -34,7 +34,14 @@ return [
 			],
 		],
 		'smwhacks' => [
-			'demo' => 'Démo',
+			'demo' => [
+				'name' => 'Démo',
+				'description' => 'Est-ce que le hack une démo?',
+			],
+			'hof' => [
+				'name' => 'Panthéon',
+				'description' => 'Est-ce que le hack figure dans notre Panthéon?',
+			],
 			'featured' => [
 				'name' => 'En vedette',
 				'description' => 'N\'afficher que les hacks qui sont en vedettes ou pas.',
@@ -44,21 +51,49 @@ return [
 				'description' => 'Nombres de sorties de niveau dans le hack.',
 			],
 			'difficulty' => [
-				'name' => 'Type',
+				'name' => 'Difficulté',
+				'description' => 'Sélectionnez le classement de difficulté relatif du hack.',
 				'options' => [
-					'easy' => 'Standard: Facile',
-					'normal' => 'Standard: Normal',
-					'hard' => 'Standard: Difficile',
-					'very_hard' => 'Standard: Très difficile',
-					'kaizo_beginner' => 'Kaizo: Débutant',
-					'kaizo_light' => 'Kaizo: Intermédiaire',
-					'kaizo_expert' => 'Kaizo: Expert',
-					'kaizo_hard' => 'Avec outils: Kaizo', // not sure if outils is the right word, or if it should just be TAS: Kaizo
-					'pit' => 'Avec outils: Pit',
-					'troll' => 'Divers: Troll',
+					'diff_1' => 'Débutant',
+					'diff_2' => 'Novice',
+					'diff_3' => 'Intermédiaire',
+					'diff_4' => 'Avancé',
+					'diff_5' => 'Expert',
+					'diff_6' => 'Maître',
+					'diff_7' => 'Grand Maître',
+				],
+			],
+			'type' => [
+				'name' => 'Type',
+				'description' => 'Sélectionnez quel type de hack il s\'agit. Un hack peut avoir plusieurs types.',
+				'options' => [
+					'standard' => 'Standard',
+					'kaizo' => 'Kaizo',
+					'puzzle' => 'Casse-tête',
+					'tool_assisted' => 'Avec outils', // not sure if outils is the right word, or if it should just be TAS: Kaizo
+					'pit' => 'Pit',
 				],
 			],
 			'description' => 'Description',
+			'warnings' => [
+				'name' => 'Mises en garde',
+				'description' => 'Est-ce que le hack contient du contenu « adulte » et/ou potentiellement sensible?',
+				'options' => [
+					'suggestive_content' => 'Contenu ou langage suggestif',
+					'crude_content' => 'Contenu ou langage vulgaire',
+					'sexual_content' => 'Contenu sexuel',
+					'violence' => 'Violence',
+					'photosensitivity' => 'Déclencheurs de photosensibilité possibles',
+				],
+			],
+			'collab' => [
+				'name' => 'Collaboration',
+				'description' => 'Est-ce un hack collaboratif?',
+			],
+			'sa1' => [
+				'name' => 'SA-1',
+				'description' => 'Est-ce que le hack utilise la puce SA-1?',
+			],
 		],
 		'sm64hacks' => [
 			'difficulty' => [

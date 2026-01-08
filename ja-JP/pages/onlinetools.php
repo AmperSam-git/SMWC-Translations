@@ -21,7 +21,7 @@ return [
 		'sm64' => 'SM64',
 	],
 	'tool' => [
-		'breadcrumbs' => '{link}オンラインツール{/link} → {tool}', // U+2192 (RIGHTWARDS ARROW)
+		'breadcrumbs' => '{link}オンラインツール{/link}{arrow}{tool}',
 		'github' => 'GitHubで表示',
 		'details' => 'ツールの詳細',
 	],

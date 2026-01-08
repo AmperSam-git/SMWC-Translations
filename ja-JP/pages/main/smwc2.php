@@ -4,9 +4,6 @@ return [
 	'title' => 'SMW Central - スーパー マリオ ワールドの主要なハッキング リソース',
 	'intro' => [
 		'title' => 'SMW Centralへようこそ!',
-		'paragraph' => 'SMW Central はインターネットで最大の ROM ハッキング コミュニティであり、独自の ROM ハックを作成するために必要なリソースが全て集まる場所です。完成したハックも多数用意されており、すぐにプレイできます。伝統的に SMW Central は{em}スーパー マリオ ワールド{/em}のハッキングに重点を置いていますが、長年にわたり、他のゲームにも関連する大量のリソースとハッキングを収集してきました。',
-		'register' => '私たちのコミュニティは成長し続けています - 今すぐ{link}登録{/link}して参加してください!',
-		'beginners_title' => 'はじめに: 遊び方とハックの作り方',
 		'beginners' => 'ここにあるハックをプレイするのに助けが必要? そもそも「ROMハッキング」が何なのかわからないって？それなら{link}初心者ガイド{/link}が喜んでご案内いたします。', // U+201C (LEFT DOUBLE QUOTATION MARK) and U+201D (RIGHT DOUBLE QUOTATION MARK)
 	],
 	'files' => [

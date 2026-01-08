@@ -47,8 +47,8 @@ return [
 	],
 	'read' => [
 		'breadcrumbs' => [
-			'inbox' => '{link}PM受信箱{/link} → {subject}', // U+2192 (RIGHTWARDS ARROW)
-			'sentbox' => '{link}PM送信箱{/link} → {subject}', // U+2192 (RIGHTWARDS ARROW)
+			'inbox' => '{link}PM受信箱{/link}{arrow}{subject}',
+			'sentbox' => '{link}PM送信箱{/link}{arrow}{subject}',
 		],
 		'reply' => '返信',
 	],

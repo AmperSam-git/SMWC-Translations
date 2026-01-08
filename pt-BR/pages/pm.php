@@ -47,8 +47,8 @@ return [
 	],
 	'read' => [
 		'breadcrumbs' => [
-			'inbox' => '{link}Caixa de entrada de MP{/link} → {subject}', // U+2192 (RIGHTWARDS ARROW)
-			'sentbox' => '{link}Caixa de saída de MP{/link} → {subject}', // U+2192 (RIGHTWARDS ARROW)
+			'inbox' => '{link}Caixa de entrada de MP{/link}{arrow}{subject}',
+			'sentbox' => '{link}Caixa de saída de MP{/link}{arrow}{subject}',
 		],
 		'reply' => 'Responder',
 	],

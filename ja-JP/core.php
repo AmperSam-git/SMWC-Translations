@@ -15,24 +15,24 @@ return [
 	'time' => [
 		'now' => 'たった今',
 		'past' => '{time}前',
-		'years' => '1年|{count}年',
-		'months' => '1ヵ月|{count}ヵ月',
-		'weeks' => '1週間|{count}週間',
-		'days' => '1日|{count}日',
-		'hours' => '1時間|{count}時間',
-		'minutes' => '1分|{count}分',
-		'seconds' => '1秒|{count}秒',
+		'years' => '{count}年',
+		'months' => '{count}ヵ月',
+		'weeks' => '{count}週間',
+		'days' => '{count}日',
+		'hours' => '{count}時間',
+		'minutes' => '{count}分',
+		'seconds' => '{count}秒',
 	],
 	'unit' => [
-		'byte' => '{count}バイト|{count}バイト',
+		'byte' => '{count}バイト',
 		'kibibyte' => "{count}\u{00A0}キロバイト", // U+00A0 (NO-BREAK SPACE)
 		'mebibyte' => "{count}\u{00A0}メガバイト",
 		'gibibyte' => "{count}\u{00A0}ギガバイト",
 	],
 	'redirection' => '{link}ここ{/link}をクリックするか、リダイレクトされるまでお待ちください…', // U+2026 (HORIZONTAL ELLIPSIS)
 	'user_status' => [
+		'founder' => '創設者',
 		'owner' => 'サイトオーナー',
-		'founder' => '創設者および元サイト所有者',
 		'manager' => 'サイトマネージャー',
 		'admin' => '管理者',
 		'dev' => [
@@ -66,9 +66,11 @@ return [
 			'documents' => '資料モデレーター',
 		],
 		'pr' => '広報',
+		// 'events' => 'Site Events Team',
 		'helper' => [
 			'forum' => 'フォーラムヘルパー',
 			'pr' => 'PRヘルパー',
+			// 'events' => 'Site Events Helper',
 			'smwhacks' => 'SMWハックヘルパー',
 			'smwgraphics' => 'SMWグラフィックヘルパー',
 			'smwmusic' => 'SMW音楽ヘルパー',
@@ -79,6 +81,7 @@ return [
 		],
 		'system' => '人事',
 		'former' => [
+			'owner' => '元サイト所有者',
 			'admin' => '元管理者',
 			'dev' => '伝説の元Walrus',
 			'legend' => 'レジェンド',
@@ -104,13 +107,5 @@ return [
 	'recent_infraction' => [
 		'title' => '最近の違反',
 		'message' => 'あなたは最近、攻撃的な行為に対して違反行為を受けました。違反箇所​​にリダイレクトされます。',
-	],
-	'permission_denied' => [
-		'title' => '許可は拒否されました',
-		'message' => 'これを行う権限がありません。',
-	],
-	'server_error' => [
-		'title' => 'エラー',
-		'message' => '内部エラー。後でもう一度お試しください。',
 	],
 ];

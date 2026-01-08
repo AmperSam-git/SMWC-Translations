@@ -5,7 +5,7 @@ return [
 		'own' => 'My Infractions',
 		'other' => 'Infractions for {username}',
 	],
-	'breadcrumbs' => '{profile}Profile for {username}{/profile} → Infractions',
+	'breadcrumbs' => '{profile}Profile for {username}{/profile}{arrow}Infractions',
 	'empty' => [
 		'own' => 'You have no infractions.',
 		'other' => '{username} has no infractions.',

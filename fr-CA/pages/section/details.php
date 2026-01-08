@@ -4,8 +4,8 @@ return [
 	'title' => '{file} - {Section}',
 	'age_gate' => 'Ce fichier contient du contenu inapproprié pour les mineurs.',
 	'breadcrumbs' => [
-		'moderated' => '{link}{section}{/link} → {file}', // U+2192 (RIGHTWARDS ARROW)
-		'waiting' => '{link}{section} en attente{/link} → {file}', // U+2192 (RIGHTWARDS ARROW)
+		'moderated' => '{link}{section}{/link}{arrow}{file}',
+		'waiting' => '{link}{section} en attente{/link}{arrow}{file}',
 	],
 	'action' => [
 		'submit_update' => 'Soumettre une mise à jour',
@@ -18,17 +18,15 @@ return [
 		'watch' => 'Surveiller',
 		'unwatch' => 'Dé-surveiller',
 		'random' => 'Soumission aléatoire',
-		'link' => 'Lien',
 	],
 	'obsolete' => 'Ce fichier est désuet. La version actuelle est {latest_link}{latest}{/link}. Pour les autres versions, consultez {history_link}l\'historique des versions{/link}.',
 	'content' => [
-		'warning' => 'Ce fichier contient {warnings}. Pour public averti.',
-		'suggestive_dialogue' => 'du dialogue suggestif',
-		'crude_content' => 'du contenu vulgaire',
-		'crude_language' => 'du langage vulgaire',
-		'sexual_content' => 'du contenu sexuel',
-		'violence' => 'de la violence',
-		'epilepsy' => 'du contenu (tel que des images clignotantes) qui pourrait être nuisible aux personnes ayant de l\'épilepsie photosensible ou des affections similaires',
+		'warning' => 'Pour public averti. Cette soumission contient:',
+		'photosensitivity' => 'Des déclencheurs de photosensibilité possibles',
+		'crude_content' => 'Du contenu ou du langage vulgaire',
+		'suggestive_content' => 'Du contenu ou du langage suggestif',
+		'sexual_content' => 'Du contenu sexuel',
+		'violence' => 'Du contenu violent',
 	],
 	'details' => 'Détails de la soumission',
 	'field' => [
@@ -52,12 +50,28 @@ return [
 		],
 		'comments' => [
 			'name' => 'Commentaires:',
-			'jump' => '(aller aux commentaires)',
+			'jump' => 'Aller aux commentaires',
 		],
 		'rating' => [
 			'name' => 'Étoiles:',
 			'count' => '(1 cotation)|({count} cotations)',
 			'none' => 'Aucune cotation',
+		],
+		'difficulty' => [
+			'name' => 'Difficulté',
+			'level' => [
+				'diff_1' => 'Débutant',
+				'diff_2' => 'Novice',
+				'diff_3' => 'Intermédiaire',
+				'diff_4' => 'Avancé',
+				'diff_5' => 'Expert',
+				'diff_6' => 'Maître',
+				'diff_7' => 'Grand Maître',
+			],
+		],
+		'link' => [
+			'name' => 'URL courte:',
+			'content' => 'Lien',
 		],
 		'claimed' => 'Réservé le {date}, pour être modéré par {user}',
 	],
@@ -80,7 +94,7 @@ return [
 			'title' => 'Publier un commentaire',
 			'textarea' => 'Commentaire',
 			'replying' => 'En réponse à to {author}: {text}',
-			'unreply' => 'annuler la réponse',
+			'unreply' => 'Annuler',
 			'submit' => 'Publier',
 			'preview' => 'Aperçu',
 		],

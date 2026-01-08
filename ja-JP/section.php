@@ -34,7 +34,10 @@ return [
 			],
 		],
 		'smwhacks' => [
-			'demo' => 'デモ',
+			'demo' => [
+				'name' => 'デモ',
+				// 'description' => 'Is the hack a Demo?', // TODO get translation
+			],
 			'featured' => [
 				'name' => '注目',
 				'description' => 'ハッキングの注目のステータスを制御します。',
@@ -45,20 +48,49 @@ return [
 			],
 			'difficulty' => [
 				'name' => '難易度',
+				// 'description' => 'Choose the relative difficulty rating of the hack.',
 				'options' => [
-					'easy' => 'スタンダード:初級',
-					'normal' => 'スタンダード:中級',
-					'hard' => 'スタンダード:上級',
-					'very_hard' => 'スタンダード:超上級',
-					'kaizo_beginner' => '改造:初級',
-					'kaizo_light' => '改造:中級',
-					'kaizo_expert' => '改造:上級',
-					'kaizo_hard' => 'ツール支援:改造',
-					'pit' => 'ツール支援:ピット',
-					'troll' => 'その他:トロール',
+					// TODO get translations
+					// 'diff_1' => 'Newcomer',
+					// 'diff_2' => 'Casual',
+					// 'diff_3' => 'Intermediate',
+					// 'diff_4' => 'Advanced',
+					// 'diff_5' => 'Expert',
+					// 'diff_6' => 'Master',
+					// 'diff_7' => 'Grandmaster',
+				],
+			],
+			'type' => [
+				'name' => '難易度',
+				// 'description' => 'Select what type of hack it is. Hacks may be multiple types.', // TODO get translations
+				'options' => [
+					'standard' => 'スタンダード',
+					'kaizo' => '改造',
+					// 'puzzle' => '', // TODO get translations
+					'tool_assisted' => 'ツール支援',
+					'pit' => 'ピット',
 				],
 			],
 			'description' => '説明',
+			'warnings' => [
+				// 'name' => 'Warnings',
+				// 'description' => 'Does the hack contain mature content or other potentially sensitive material?',
+				// 'options' => [
+				// 	'suggestive_content' => 'Suggestive Content or Language',
+				// 	'crude_content' => 'Crude Content or Language',
+				// 	'sexual_content' => 'Sexual Content',
+				// 	'violence' => 'Violence',
+				// 	'photosensitivity' => 'Possible Photosensitivity Triggers',
+				// ],
+			],
+			'collab' => [
+				// 'name' => 'Collab',
+				// 'description' => 'Is this a collaboration hack?',
+			],
+			'sa1' => [
+				'name' => 'SA-1',
+				// 'description' => 'Does the hack enable the use of the SA-1 chip?',
+			],
 		],
 		'sm64hacks' => [
 			'difficulty' => [

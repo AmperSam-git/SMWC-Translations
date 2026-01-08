@@ -31,8 +31,8 @@ return [
 	],
 	'redirection' => 'Cliquez {link}ici{/link} ou attendez d\'être redirigé…', // U+2026 (HORIZONTAL ELLIPSIS)
 	'user_status' => [
+		'founder' => 'Fondateur',
 		'owner' => 'Propriétaire du site',
-		'founder' => 'Fondateur et Ex-propriétaire du site',
 		'manager' => [
 			'general' => 'Gérant du site',
 			'male' => 'Gérant du site',
@@ -49,12 +49,12 @@ return [
 				'male' => 'Morse en formation',
 				'female' => 'Morse en formation',
 			],
-				'senior' => [
+			'senior' => [
 				'general' => 'Morse lieutenant',
 				'male' => 'Morse lieutenant',
 				'female' => 'Morse lieutenant',
 			],
-				'sysadmin' => [
+			'sysadmin' => [
 				'general' => 'Administrateur de système',
 				'male' => 'Administrateur de système',
 				'female' => 'Administratrice de système',
@@ -159,6 +159,7 @@ return [
 			'male' => 'Relations publiques',
 			'female' => 'Relations publiques',
 		],
+		// 'events' => 'Site Events Team',
 		'helper' => [
 			'forum' => [
 				'general' => 'Assistant aux forums',
@@ -170,6 +171,7 @@ return [
 				'male' => 'Assistant aux RP',
 				'female' => 'Assistante aux RP',
 			],
+			// 'events' => 'Site Events Helper',
 			'smwhacks' => [
 				'general' => 'Assistant aux hacks SMW',
 				'male' => 'Assistant aux hacks SMW',
@@ -202,11 +204,12 @@ return [
 			],
 		],
 		'system' => [
-				'general' => 'Resources humaines',
-				'male' => 'Resources humaines',
-				'female' => 'Resources humaines',
-			],
+			'general' => 'Resources humaines',
+			'male' => 'Resources humaines',
+			'female' => 'Resources humaines',
+		],
 		'former' => [
+			'owner' => 'Ex-propriétaire du site',
 			'admin' => [
 				'general' => 'Ancien administrateur',
 				'male' => 'Ancien administrateur',
@@ -223,28 +226,28 @@ return [
 				'female' => 'Légende',
 			],
 			'staff' => [
-				'general' => 'Ancien membre du personnel légendaire',
-				'male' => 'Ancien membre du personnel légendaire',
-				'female' => 'Ancien membre du personnel légendaire',
+				'general' => 'Ancien membre du personnel',
+				'male' => 'Ancien membre du personnel',
+				'female' => 'Ancien membre du personnel',
 			],
 		],
 		'time_banned' => [
-				'general' => 'Banni jusqu\'au {date}',
-				'male' => 'Banni jusqu\'au {date}',
-				'female' => 'Bannie jusqu\'au {date}',
-			],
+			'general' => 'Banni jusqu\'au {date}',
+			'male' => 'Banni jusqu\'au {date}',
+			'female' => 'Bannie jusqu\'au {date}',
+		],
 		'banned' => [
-				'general' => 'Banni',
-				'male' => 'Banni',
-				'female' => 'Bannie',
-			],
+			'general' => 'Banni',
+			'male' => 'Banni',
+			'female' => 'Bannie',
+		],
 		'disabled' => [
-				'general' => 'Compte désactivé',
-				'male' => 'Compte désactivé',
-				'female' => 'Compte désactivé',
-			],
+			'general' => 'Compte désactivé',
+			'male' => 'Compte désactivé',
+			'female' => 'Compte désactivé',
+		],
 	],
-		'post' => [
+	'post' => [
 		'history' => 'Historique de publications',
 		'link' => 'Lien',
 		'quote' => 'Citer',
@@ -260,13 +263,5 @@ return [
 	'recent_warning' => [
 		'title' => 'Avertissement récent',
 		'message' => 'Vous avez récemment reçu un avertissement pour un comportement non-conforme aux règles. Vous y serez redirigé.',
-	],
-	'permission_denied' => [
-		'title' => 'Accès refusé',
-		'message' => 'Vous n\'avez pas l\'autorisation de faire ceci.',
-	],
-	'server_error' => [
-		'title' => 'Erreur',
-		'message' => 'Erreur interne, veuillez réessayer plus tard.',
 	],
 ];

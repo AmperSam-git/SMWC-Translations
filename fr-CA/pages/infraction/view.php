@@ -5,7 +5,7 @@ return [
 		'notice' => 'Avis #{id}',
 		'infraction' => 'Infraction #{id}',
 	],
-	'breadcrumbs' => '{profile}Profil de {username}{/profile} → {list}Infractions{/list} → #{id}',
+	'breadcrumbs' => '{profile}Profil de {username}{/profile}{arrow}{list}Infractions{/list}{arrow}#{id}',
 	'action' => [
 		'edit' => 'Modifier',
 		'delete' => 'Supprimer',

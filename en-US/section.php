@@ -21,6 +21,13 @@ return [
 		'yimusic' => 'YI Music',
 		'spasm' => 'SPASM Repository',
 	],
+	'legacy' => [
+		'temporaryhacks' => 'Temporary Hacks',
+		'nsmbwmods' => 'New Super Mario Bros. Wii Mods',
+		'nsmbwlevels' => 'New Super Mario Bros. Wii Levels',
+		'nsmbwmodels' => 'NSMBW Models',
+		'nsmbwmusic' => 'NSMBW Music',
+	],
 	'field' => [
 		'common' => [
 			'name' => 'name',
@@ -34,31 +41,63 @@ return [
 			],
 		],
 		'smwhacks' => [
-			'demo' => 'Demo',
-			'featured' => [
-				'name' => 'Featured',
-				'description' => 'Controls featured status of a hack.',
+			'demo' => [
+				'name' => 'Demo',
+				'description' => 'Is the hack a demo?',
+			],
+			'hof' => [
+				'name' => 'Hall of Fame',
+				'description' => 'Is the hack featured in our Hall of Fame?',
 			],
 			'length' => [
 				'name' => 'Length',
 				'description' => 'Number of level exits in the hack.',
 			],
 			'difficulty' => [
-				'name' => 'Type',
+				'name' => 'Difficulty',
+				'description' => 'Choose the relative difficulty rating of the hack.',
 				'options' => [
-					'easy' => 'Standard: Easy',
-					'normal' => 'Standard: Normal',
-					'hard' => 'Standard: Hard',
-					'very_hard' => 'Standard: Very Hard',
-					'kaizo_beginner' => 'Kaizo: Beginner',
-					'kaizo_light' => 'Kaizo: Intermediate',
-					'kaizo_expert' => 'Kaizo: Expert',
-					'kaizo_hard' => 'Tool-Assisted: Kaizo',
-					'pit' => 'Tool-Assisted: Pit',
-					'troll' => 'Misc.: Troll',
+					'' => '',
+					'diff_1' => 'Newcomer',
+					'diff_2' => 'Casual',
+					'diff_3' => 'Intermediate',
+					'diff_4' => 'Advanced',
+					'diff_5' => 'Expert',
+					'diff_6' => 'Master',
+					'diff_7' => 'Grandmaster',
+				],
+			],
+			'type' => [
+				'name' => 'Type',
+				'description' => 'Select what type of hack it is. Hacks may be multiple types.',
+				'options' => [
+					'standard' => 'Standard',
+					'kaizo' => 'Kaizo',
+					'puzzle' => 'Puzzle',
+					'tool_assisted' => 'Tool-Assisted',
+					'pit' => 'Pit',
 				],
 			],
 			'description' => 'Description',
+			'warnings' => [
+				'name' => 'Warnings',
+				'description' => 'Does the hack contain mature content or other potentially sensitive material?',
+				'options' => [
+					'suggestive_content' => 'Suggestive Content or Language',
+					'crude_content' => 'Crude Content or Language',
+					'sexual_content' => 'Sexual Content',
+					'violence' => 'Violence',
+					'photosensitivity' => 'Possible Photosensitivity Triggers',
+				],
+			],
+			'collab' => [
+				'name' => 'Collab',
+				'description' => 'Is this a collaboration hack?',
+			],
+			'sa1' => [
+				'name' => 'SA-1',
+				'description' => 'Does the hack enable the use of the SA-1 chip?',
+			],
 		],
 		'sm64hacks' => [
 			'difficulty' => [
@@ -599,6 +638,23 @@ return [
 	'none' => 'None',
 	'preview' => [
 		'default' => 'Preview',
+		'bps' => [
+			'verb' => 'Patch Now',
+			'para_1' => 'Provide a clean ROM file to patch this hack before downloading it. Patching is done locally in your browser. Files that you use are not uploaded.',
+			'para_2' => 'If you need help, our {link}Beginners\' Guide{/link} explains how patching works and how to select a clean ROM.',
+			'new_tab' => 'Opens in a new tab',
+			'all_failed' => 'Errors occurred while patching',
+			'no_base_rom' => 'No clean ROM selected',
+			'not_bps' => 'This is not a BPS patch',
+			'bad_base_rom' => 'This patch is not intended for this ROM',
+			'internal_error' => 'Couldn\'t apply patch',
+			'success' => 'Patch successful',
+			'download' => 'Download',
+			'download_archive' => 'Download archive with patched ROMs',
+			'download_rom' => 'Download patched ROM',
+			'other_file' => '…and {number} more file',
+			'other_files' => '…and {number} more files',
+		],
 		'spc' => [
 			'verb' => 'Play SPC',
 			'toggle' => 'Toggle player',
@@ -611,6 +667,8 @@ return [
 			'title' => 'Song Title',
 			'volume' => 'Volume',
 			'move' => 'Move player',
+			'close' => 'Close',
+			'up_next' => 'Up Next: ',
 		],
 	],
 	'preview_script' => 'Turn on JavaScript to preview files without downloading them.',

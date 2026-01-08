@@ -5,9 +5,9 @@ return [
 		'own' => '私のファイル',
 		'other' => '{username}のファイル',
 	],
-	'breadcrumbs' => '{link}{username}のプロフィール{/link} → ファイル', // U+2192 (RIGHTWARDS ARROW)
+	'breadcrumbs' => '{link}{username}のプロフィール{/link}{arrow}ファイル',
 	'stats' => [
-		'files' => '{bold}{count}{/bold}個のファイルがアップロードされています。|{bold}{count}{/bold}個のファイルがアップロードされています。',
+		'files' => '{bold}{count}{/bold}個のファイルがアップロードされています。',
 		'usage' => '{total}中{bold}{used}{/bold}が使用されています。({bold}{percent}%{/bold}).',
 	],
 	'action' => [

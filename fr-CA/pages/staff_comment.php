@@ -4,9 +4,9 @@ return [
 	'title' => 'Passer des commentaires au personnel',
 	'editor' => 'Éditeur',
 	'body' => [
-		'main' => 'Vous avez un problème avec la manière dont un membre du personnel se comporte? Vous souhaitez faire reconnaître un membre du personnel assidu qui n\'est pas assez reconnu à votre avis? Vous avez des idées générales pour le personnel? N\'hésitez pas à envoyer des commentaires. Ils seront utilisés pour améliorer le site.',
-		'attitude' => 'S\'il y a un problème avec le comportement d\'un membre du personnel, veuillez nous fournir des exemples, puisqu\'il se pourrait que ce soit quelque chose dont nous ne sommes pas au courant.',
-		'response' => 'Nous réponderons à votre message publiquement dans le {link}Fil de réponses aux commentaires au personnel{/link}, tant que votre message respecte les critères détaillées dans la première publication de ce fil. Si vous choisissez de partager votre identité, il se pourrait qu\'on vous contacte à propos de vos commentaires.',
+		'main' => 'Utilisez cette page pour envoyer des commentaires directement aux administrateurs du site. Vous pouvez donnez des commentaires sur tout ce qui a trait à SMW Central, dont des suggestions ou des idées générales pour le site, des compliments ou des critiques sur une décision ou votre opinion personnelle à propos d\'un sujet quelconque.',
+		'report' => 'Si vous utilisez ce formulaire pour signaler un problème avec un membre du personnel ou un autre utilisateur, anonymement ou non, veuillez fournir des détails et des exemples supplémentaires, car il se pourrait qu\'il s\'agisse d\'une situation dont nous ne sommes pas au courant.',
+		'response' => 'Tous les commentaires ne receveront pas de réponse. Si nous jugeons qu\'il est nécessaire de répondre, une réponse publique sera publiée dans le {link}fil de réponses aux commentaires{/link}. Si vous décidez de nous faire part de votre identité, il se pourrait qu\'on vous contacte directement au sujet de vos commentaires.',
 	],
 	'form' => [
 		'subject' => 'sujet',

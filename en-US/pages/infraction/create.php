@@ -98,7 +98,7 @@ return [
 					'title' => 'Level',
 					'options' => [
 						'register' => '1 - Unable to register',
-						'login' => '2 - Unable to login',
+						'login' => '2 - Unable to log in',
 						'access' => '3 - Unable to access site',
 					],
 				],
@@ -118,6 +118,8 @@ return [
 			'line_1' => 'You are about to send the following notice to {username}. The user will be redirected to the notice the next time they visit the site.',
 			'line_2' => 'Is all information correct? You will not be able to edit the notice after sending it.',
 		],
+		'totp' => 'The punishment you\'ve chosen requires you to confirm your identity. Please enter the code shown in your 2FA authenticator app to continue.',
+		'totp_code' => 'Code',
 		'field' => [
 			'user' => 'User:',
 			'content' => 'Content:',

@@ -80,4 +80,5 @@ return [
 		'submitted' => 'Submitted on {datetime} by {username}',
 		'authors' => 'By {authors}',
 	],
+	'security_2fa' => '{title}SECURITY NOTICE{/title}You are a moderator for this section. A verified email address and enabled two-factor authentication (2FA) are required for all moderators. You will not have moderation privileges until you {link}verify your email and enable 2FA{/link}.',
 ];
